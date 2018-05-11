@@ -32,64 +32,14 @@ export class MyApp {
               {name:'Authentication(Register)',component:'RegisterPage'},
               {name:'Authentication(Forgot)',component:'ForgotPage'},
               {name:'Authentication(Profile)',component:'AfterLoginPage'},
-              {name:'Chart',component:'ChartPage'},
+              {name:'My farm',component: 'MapPage'},
 
-              {name:'City guide', component: 'Category1Page'},// app1 folder
-              {name:'Shopping',component:'Category2Page'},// app2 folder
-              {name:'Restaurant',component:'Category3Page'}, // app3 folder
-              {name:'Google map',component: 'MapPage'},
-              {name:'Image gallery',component: 'GalleryPage'},
-              {name:'Feed',component: 'FeedPage'},
-              {name:'Form',component: 'FormResultPage'},
-
-
-              {name:'Intro', component:'IntroPage'},
-
-              {name:'Pinterest(Masonry)',component: 'MasonryPage'},
-              {name:'Profile1',component: 'ProfilePage'},
-              {name:'Profile2',component: 'Profile2Page'},
-              {name:'Profile3',component: 'Profile3Page'},
-              {name:'Profile4', component: 'Profile4Page'},
-              {name:'Radio player',component:'RadioListPage'},
-
-              {name:'Search',component:'SearchPage'},
-              {name:'Timeline',component: 'TimelinePage'}
           ]
         }, {
           title: 'Profile',
           iconLeft: 'contact',
           showDetails: true,
           items:  [
-                {name:'Accordion',component:'AccordionPage'},
-
-                {name:'Action sheet',component:'ActionsheetPage'},
-                {name:'Alert',component:'AlertPage'},
-                {name:'Animation',component:'AnimationsPage'},
-
-                {name:'Button',component:'ButtonPage'},
-                {name:'Datetime',component:'DatetimePage'},
-                {name:'Fab', component:'FabPage'},
-                {name:'Fading header',component:'FadingHeaderPage' },
-                {name:'Grid', component:'GridPage'},
-                {name:'Header',component:'HeaderPage'},
-                {name:'Input',component:'InputPage'},
-                {name:'Item',component:'ItemPage'},
-                {name:'Item sliding',component:'ItemSlidingPage'},
-                {name:'Label',component:'LabelPage'},
-                {name:'Radio button',component:'RadioButtonPage'},
-                {name:'Rating',component:'RatingPage'},
-
-                {name:'Range',component:'RangePage'},
-                {name:'Search bar', component:'SearchBarPage'},
-                {name:'Select option',component:'SelectOptionPage'},
-                {name:'Segment',component:'SegmentPage'},
-                {name:'Shrinking',component:'ShrinkingPage'},
-
-                {name:'Tag',component:'TagPage'},
-                {name:'Table',component:'TablePage'},
-                {name:'Tab',component:'TabPage'},
-                {name:'Transparent header',component:'TransparentHeaderPage'},
-                {name:'Toast',component:'ToastPage'}
 
             ]
         },{
@@ -107,9 +57,9 @@ export class MyApp {
 
     this.pages = [
       { icon:'home', title:'Home', component: 'AfterLoginPage' },
-      { icon:'call', title:'Report a lost', component: 'InputPage' },
-      { icon:'call', title:'Report a lost', component: 'InputPage' },
-      { icon:'bookmark', title:'FindLost version alpha', component: '' }
+      { icon:'call', title:'My farm', component: 'InputPage' },
+      { icon:'call', title:'Reports', component: 'InputPage' },
+      { icon:'bookmark', title:'Sagarobotics AS - alpha', component: '' }
     ];
 
   }
